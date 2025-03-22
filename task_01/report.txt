@@ -1,0 +1,237 @@
+The CPU version of the program was executed on an Intel® Core™ i9-12900H processor. 
+This processor features 6 performance cores (P-cores) and 8 efficiency cores (E-cores), supporting a total of 20 threads. 
+The program utilizes OpenMP for parallelization, effectively leveraging all 20 threads of the processor.
+
+yamyucheung@yamyucheung-Alienware-x15-R2:~/Desktop/task_01$ ./jacobi3d --compare
+3D Jacobi Implementation
+Problem size: 384 x 384 x 384
+Data type: double
+
+GPU Device 0: "NVIDIA GeForce RTX 3080 Ti Laptop GPU"
+  Total global memory: 15.74 GB
+  Compute capability: 8.6
+  Max threads per block: 1024
+  Max thread dimensions: (1024, 1024, 64)
+  Max grid dimensions: (2147483647, 65535, 65535)
+
+Memory Info:
+  Total GPU memory: 15.74 GB
+  Available GPU memory: 15.54 GB
+
+Running CPU version...
+ IT =    1   EPS =  1.1500000E+03
+ IT =    2   EPS =  5.7550000E+02
+ IT =    3   EPS =  2.2358333E+02
+ IT =    4   EPS =  1.4364352E+02
+ IT =    5   EPS =  1.1700000E+02
+ IT =    6   EPS =  9.9246914E+01
+ IT =    7   EPS =  8.3798547E+01
+ IT =    8   EPS =  6.9385202E+01
+ IT =    9   EPS =  5.9290769E+01
+ IT =   10   EPS =  5.2476413E+01
+ IT =   11   EPS =  4.7742066E+01
+ IT =   12   EPS =  4.4868695E+01
+ IT =   13   EPS =  4.1746085E+01
+ IT =   14   EPS =  3.8817494E+01
+ IT =   15   EPS =  3.5900179E+01
+ IT =   16   EPS =  3.3275310E+01
+ IT =   17   EPS =  3.0746569E+01
+ IT =   18   EPS =  2.8755365E+01
+ IT =   19   EPS =  2.7081813E+01
+ IT =   20   EPS =  2.5770431E+01
+ IT =   21   EPS =  2.4713223E+01
+ IT =   22   EPS =  2.3764323E+01
+ IT =   23   EPS =  2.2841154E+01
+ IT =   24   EPS =  2.1906918E+01
+ IT =   25   EPS =  2.1015255E+01
+ IT =   26   EPS =  2.0128887E+01
+ IT =   27   EPS =  1.9291807E+01
+ IT =   28   EPS =  1.8468654E+01
+ IT =   29   EPS =  1.7695887E+01
+ IT =   30   EPS =  1.7057148E+01
+ IT =   31   EPS =  1.6454439E+01
+ IT =   32   EPS =  1.5954020E+01
+ IT =   33   EPS =  1.5486035E+01
+ IT =   34   EPS =  1.5110627E+01
+ IT =   35   EPS =  1.4729018E+01
+ IT =   36   EPS =  1.4355703E+01
+ IT =   37   EPS =  1.3980198E+01
+ IT =   38   EPS =  1.3615445E+01
+ IT =   39   EPS =  1.3251261E+01
+ IT =   40   EPS =  1.2899223E+01
+ IT =   41   EPS =  1.2549609E+01
+ IT =   42   EPS =  1.2212797E+01
+ IT =   43   EPS =  1.1879621E+01
+ IT =   44   EPS =  1.1568274E+01
+ IT =   45   EPS =  1.1295318E+01
+ IT =   46   EPS =  1.1026712E+01
+ IT =   47   EPS =  1.0800082E+01
+ IT =   48   EPS =  1.0578606E+01
+ IT =   49   EPS =  1.0383955E+01
+ IT =   50   EPS =  1.0201855E+01
+ IT =   51   EPS =  1.0022450E+01
+ IT =   52   EPS =  9.8420875E+00
+ IT =   53   EPS =  9.6650406E+00
+ IT =   54   EPS =  9.4877584E+00
+ IT =   55   EPS =  9.3142226E+00
+ IT =   56   EPS =  9.1410053E+00
+ IT =   57   EPS =  8.9718167E+00
+ IT =   58   EPS =  8.8033666E+00
+ IT =   59   EPS =  8.6391127E+00
+ IT =   60   EPS =  8.4759111E+00
+ IT =   61   EPS =  8.3169847E+00
+ IT =   62   EPS =  8.1686141E+00
+ IT =   63   EPS =  8.0307403E+00
+ IT =   64   EPS =  7.8958762E+00
+ IT =   65   EPS =  7.7768123E+00
+ IT =   66   EPS =  7.6606728E+00
+ IT =   67   EPS =  7.5479805E+00
+ IT =   68   EPS =  7.4512312E+00
+ IT =   69   EPS =  7.3539535E+00
+ IT =   70   EPS =  7.2578516E+00
+ IT =   71   EPS =  7.1614629E+00
+ IT =   72   EPS =  7.0664112E+00
+ IT =   73   EPS =  6.9712725E+00
+ IT =   74   EPS =  6.8775936E+00
+ IT =   75   EPS =  6.7839923E+00
+ IT =   76   EPS =  6.6919413E+00
+ IT =   77   EPS =  6.6001025E+00
+ IT =   78   EPS =  6.5098780E+00
+ IT =   79   EPS =  6.4199751E+00
+ IT =   80   EPS =  6.3317283E+00
+ IT =   81   EPS =  6.2438912E+00
+ IT =   82   EPS =  6.1577340E+00
+ IT =   83   EPS =  6.0781135E+00
+ IT =   84   EPS =  6.0017733E+00
+ IT =   85   EPS =  5.9266627E+00
+ IT =   86   EPS =  5.8575181E+00
+ IT =   87   EPS =  5.7914857E+00
+ IT =   88   EPS =  5.7263036E+00
+ IT =   89   EPS =  5.6655950E+00
+ IT =   90   EPS =  5.6088840E+00
+ IT =   91   EPS =  5.5527002E+00
+ IT =   92   EPS =  5.4963788E+00
+ IT =   93   EPS =  5.4406409E+00
+ IT =   94   EPS =  5.3848365E+00
+ IT =   95   EPS =  5.3296614E+00
+ IT =   96   EPS =  5.2744810E+00
+ IT =   97   EPS =  5.2199669E+00
+ IT =   98   EPS =  5.1655002E+00
+ IT =   99   EPS =  5.1117286E+00
+ IT =  100   EPS =  5.0580497E+00
+
+ Jacobi3D CPU benchmark completed.
+ Size             =  384 x  384 x  384
+ Iterations       = 101
+ Time (seconds)   = 6.875943
+ Precision type   = double precision
+
+Running GPU version...
+ IT =    1   EPS =  1.1500000E+03
+ IT =    2   EPS =  5.7550000E+02
+ IT =    3   EPS =  2.2358333E+02
+ IT =    4   EPS =  1.4364352E+02
+ IT =    5   EPS =  1.1700000E+02
+ IT =    6   EPS =  9.9246914E+01
+ IT =    7   EPS =  8.3798547E+01
+ IT =    8   EPS =  6.9385202E+01
+ IT =    9   EPS =  5.9290769E+01
+ IT =   10   EPS =  5.2476413E+01
+ IT =   11   EPS =  4.7742066E+01
+ IT =   12   EPS =  4.4868695E+01
+ IT =   13   EPS =  4.1746085E+01
+ IT =   14   EPS =  3.8817494E+01
+ IT =   15   EPS =  3.5900179E+01
+ IT =   16   EPS =  3.3275310E+01
+ IT =   17   EPS =  3.0746569E+01
+ IT =   18   EPS =  2.8755365E+01
+ IT =   19   EPS =  2.7081813E+01
+ IT =   20   EPS =  2.5770431E+01
+ IT =   21   EPS =  2.4713223E+01
+ IT =   22   EPS =  2.3764323E+01
+ IT =   23   EPS =  2.2841154E+01
+ IT =   24   EPS =  2.1906918E+01
+ IT =   25   EPS =  2.1015255E+01
+ IT =   26   EPS =  2.0128887E+01
+ IT =   27   EPS =  1.9291807E+01
+ IT =   28   EPS =  1.8468654E+01
+ IT =   29   EPS =  1.7695887E+01
+ IT =   30   EPS =  1.7057148E+01
+ IT =   31   EPS =  1.6454439E+01
+ IT =   32   EPS =  1.5954020E+01
+ IT =   33   EPS =  1.5486035E+01
+ IT =   34   EPS =  1.5110627E+01
+ IT =   35   EPS =  1.4729018E+01
+ IT =   36   EPS =  1.4355703E+01
+ IT =   37   EPS =  1.3980198E+01
+ IT =   38   EPS =  1.3615445E+01
+ IT =   39   EPS =  1.3251261E+01
+ IT =   40   EPS =  1.2899223E+01
+ IT =   41   EPS =  1.2549609E+01
+ IT =   42   EPS =  1.2212797E+01
+ IT =   43   EPS =  1.1879621E+01
+ IT =   44   EPS =  1.1568274E+01
+ IT =   45   EPS =  1.1295318E+01
+ IT =   46   EPS =  1.1026712E+01
+ IT =   47   EPS =  1.0800082E+01
+ IT =   48   EPS =  1.0578606E+01
+ IT =   49   EPS =  1.0383955E+01
+ IT =   50   EPS =  1.0201855E+01
+ IT =   51   EPS =  1.0022450E+01
+ IT =   52   EPS =  9.8420875E+00
+ IT =   53   EPS =  9.6650406E+00
+ IT =   54   EPS =  9.4877584E+00
+ IT =   55   EPS =  9.3142226E+00
+ IT =   56   EPS =  9.1410053E+00
+ IT =   57   EPS =  8.9718167E+00
+ IT =   58   EPS =  8.8033666E+00
+ IT =   59   EPS =  8.6391127E+00
+ IT =   60   EPS =  8.4759111E+00
+ IT =   61   EPS =  8.3169847E+00
+ IT =   62   EPS =  8.1686141E+00
+ IT =   63   EPS =  8.0307403E+00
+ IT =   64   EPS =  7.8958762E+00
+ IT =   65   EPS =  7.7768123E+00
+ IT =   66   EPS =  7.6606728E+00
+ IT =   67   EPS =  7.5479805E+00
+ IT =   68   EPS =  7.4512312E+00
+ IT =   69   EPS =  7.3539535E+00
+ IT =   70   EPS =  7.2578516E+00
+ IT =   71   EPS =  7.1614629E+00
+ IT =   72   EPS =  7.0664112E+00
+ IT =   73   EPS =  6.9712725E+00
+ IT =   74   EPS =  6.8775936E+00
+ IT =   75   EPS =  6.7839923E+00
+ IT =   76   EPS =  6.6919413E+00
+ IT =   77   EPS =  6.6001025E+00
+ IT =   78   EPS =  6.5098780E+00
+ IT =   79   EPS =  6.4199751E+00
+ IT =   80   EPS =  6.3317283E+00
+ IT =   81   EPS =  6.2438912E+00
+ IT =   82   EPS =  6.1577340E+00
+ IT =   83   EPS =  6.0781135E+00
+ IT =   84   EPS =  6.0017733E+00
+ IT =   85   EPS =  5.9266627E+00
+ IT =   86   EPS =  5.8575181E+00
+ IT =   87   EPS =  5.7914857E+00
+ IT =   88   EPS =  5.7263036E+00
+ IT =   89   EPS =  5.6655950E+00
+ IT =   90   EPS =  5.6088840E+00
+ IT =   91   EPS =  5.5527002E+00
+ IT =   92   EPS =  5.4963788E+00
+ IT =   93   EPS =  5.4406409E+00
+ IT =   94   EPS =  5.3848365E+00
+ IT =   95   EPS =  5.3296614E+00
+ IT =   96   EPS =  5.2744810E+00
+ IT =   97   EPS =  5.2199669E+00
+ IT =   98   EPS =  5.1655002E+00
+ IT =   99   EPS =  5.1117286E+00
+ IT =  100   EPS =  5.0580497E+00
+
+ Jacobi3D GPU benchmark completed.
+ Size             =  384 x  384 x  384
+ Iterations       = 101
+ Time (seconds)   = 1.521089
+ Precision type   = double precision
+ GPU speedup      = 4.52 x
+yamyucheung@yamyucheung-Alienware-x15-R2:~/Desktop/task_01$ 
