@@ -1,0 +1,320 @@
+Report obtained from execution on Polus
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1305678: <./jacobi3d --compare> in cluster <MSUCluster> Done
+
+Job <./jacobi3d --compare> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-sqi22-18> in cluster <MSUCluster> at Fri Mar 28 14:00:25 2025
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-sqi22-18> in cluster <MSUCluster> at Fri Mar 28 14:00:25 2025
+</home_edu/edu-cmc-sqi22/edu-cmc-sqi22-18> was used as the home directory.
+</home_edu/edu-cmc-sqi22/edu-cmc-sqi22-18/cuda_spets_2025_msu-main/task_01> was used as the working directory.
+Started at Fri Mar 28 14:00:25 2025
+Terminated at Fri Mar 28 14:00:37 2025
+Results reported at Fri Mar 28 14:00:37 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./jacobi3d --compare
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   669.00 sec.
+    Max Memory :                                 5618 MB
+    Average Memory :                             4214.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                165
+    Run time :                                   14 sec.
+    Turnaround time :                            12 sec.
+
+The output (if any) follows:
+
+3D Jacobi Implementation
+Problem size: 900 x 900 x 900
+Data type: float
+
+GPU Device 0: "Tesla P100-SXM2-16GB"
+  Total global memory: 15.90 GB
+  Compute capability: 6.0
+  Max threads per block: 1024
+  Max thread dimensions: (1024, 1024, 64)
+  Max grid dimensions: (2147483647, 65535, 65535)
+
+Memory Info:
+  Total GPU memory: 15.90 GB
+  Available GPU memory: 15.53 GB
+
+Running CPU version...
+ IT =    1   EPS =  2.6980000E+03
+ IT =    2   EPS =  1.3495000E+03
+ IT =    3   EPS =  5.2458325E+02
+ IT =    4   EPS =  3.3714380E+02
+ IT =    5   EPS =  2.7466663E+02
+ IT =    6   EPS =  2.3302454E+02
+ IT =    7   EPS =  1.9677307E+02
+ IT =    8   EPS =  1.6294995E+02
+ IT =    9   EPS =  1.3928918E+02
+ IT =   10   EPS =  1.2331372E+02
+ IT =   11   EPS =  1.1221167E+02
+ IT =   12   EPS =  1.0546558E+02
+ IT =   13   EPS =  9.8132935E+01
+ IT =   14   EPS =  9.1255371E+01
+ IT =   15   EPS =  8.4402954E+01
+ IT =   16   EPS =  7.8237305E+01
+ IT =   17   EPS =  7.2296875E+01
+ IT =   18   EPS =  6.7634399E+01
+ IT =   19   EPS =  6.3714233E+01
+ IT =   20   EPS =  6.0632202E+01
+
+ Jacobi3D CPU benchmark completed.
+ Size             =  900 x  900 x  900
+ Iterations       = 21
+ Time (seconds)   = 5.091448
+ Precision type   = single precision
+
+Running GPU version...
+ IT =    1   EPS =  2.6980000E+03
+ IT =    2   EPS =  1.3495000E+03
+ IT =    3   EPS =  5.2458325E+02
+ IT =    4   EPS =  3.3714380E+02
+ IT =    5   EPS =  2.7466663E+02
+ IT =    6   EPS =  2.3302454E+02
+ IT =    7   EPS =  1.9677307E+02
+ IT =    8   EPS =  1.6294995E+02
+ IT =    9   EPS =  1.3928918E+02
+ IT =   10   EPS =  1.2331372E+02
+ IT =   11   EPS =  1.1221167E+02
+ IT =   12   EPS =  1.0546558E+02
+ IT =   13   EPS =  9.8132935E+01
+ IT =   14   EPS =  9.1255371E+01
+ IT =   15   EPS =  8.4402954E+01
+ IT =   16   EPS =  7.8237305E+01
+ IT =   17   EPS =  7.2296875E+01
+ IT =   18   EPS =  6.7634399E+01
+ IT =   19   EPS =  6.3714233E+01
+ IT =   20   EPS =  6.0632202E+01
+
+ Jacobi3D GPU benchmark completed.
+ Size             =  900 x  900 x  900
+ Iterations       = 21
+ Time (seconds)   = 1.501760
+ Precision type   = single precision
+ GPU speedup      = 3.39 x
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1305679: <./jacobi3d --compare> in cluster <MSUCluster> Done
+
+Job <./jacobi3d --compare> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-sqi22-18> in cluster <MSUCluster> at Fri Mar 28 14:02:47 2025
+Job was executed on host(s) <polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-sqi22-18> in cluster <MSUCluster> at Fri Mar 28 14:02:48 2025
+</home_edu/edu-cmc-sqi22/edu-cmc-sqi22-18> was used as the home directory.
+</home_edu/edu-cmc-sqi22/edu-cmc-sqi22-18/cuda_spets_2025_msu-main/task_01> was used as the working directory.
+Started at Fri Mar 28 14:02:48 2025
+Terminated at Fri Mar 28 14:03:00 2025
+Results reported at Fri Mar 28 14:03:00 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./jacobi3d --compare
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   660.63 sec.
+    Max Memory :                                 5617 MB
+    Average Memory :                             4213.25 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                165
+    Run time :                                   18 sec.
+    Turnaround time :                            13 sec.
+
+The output (if any) follows:
+
+3D Jacobi Implementation
+Problem size: 900 x 900 x 900
+Data type: float
+
+GPU Device 0: "Tesla P100-SXM2-16GB"
+  Total global memory: 15.90 GB
+  Compute capability: 6.0
+  Max threads per block: 1024
+  Max thread dimensions: (1024, 1024, 64)
+  Max grid dimensions: (2147483647, 65535, 65535)
+
+Memory Info:
+  Total GPU memory: 15.90 GB
+  Available GPU memory: 15.53 GB
+
+Running CPU version...
+ IT =    1   EPS =  2.6980000E+03
+ IT =    2   EPS =  1.3495000E+03
+ IT =    3   EPS =  5.2458325E+02
+ IT =    4   EPS =  3.3714380E+02
+ IT =    5   EPS =  2.7466663E+02
+ IT =    6   EPS =  2.3302454E+02
+ IT =    7   EPS =  1.9677307E+02
+ IT =    8   EPS =  1.6294995E+02
+ IT =    9   EPS =  1.3928918E+02
+ IT =   10   EPS =  1.2331372E+02
+ IT =   11   EPS =  1.1221167E+02
+ IT =   12   EPS =  1.0546558E+02
+ IT =   13   EPS =  9.8132935E+01
+ IT =   14   EPS =  9.1255371E+01
+ IT =   15   EPS =  8.4402954E+01
+ IT =   16   EPS =  7.8237305E+01
+ IT =   17   EPS =  7.2296875E+01
+ IT =   18   EPS =  6.7634399E+01
+ IT =   19   EPS =  6.3714233E+01
+ IT =   20   EPS =  6.0632202E+01
+
+ Jacobi3D CPU benchmark completed.
+ Size             =  900 x  900 x  900
+ Iterations       = 20
+ Time (seconds)   = 4.743247
+ Precision type   = single precision
+
+Running GPU version...
+ IT =    1   EPS =  2.6980000E+03
+ IT =    2   EPS =  1.3495000E+03
+ IT =    3   EPS =  5.2458325E+02
+ IT =    4   EPS =  3.3714380E+02
+ IT =    5   EPS =  2.7466663E+02
+ IT =    6   EPS =  2.3302454E+02
+ IT =    7   EPS =  1.9677307E+02
+ IT =    8   EPS =  1.6294995E+02
+ IT =    9   EPS =  1.3928918E+02
+ IT =   10   EPS =  1.2331372E+02
+ IT =   11   EPS =  1.1221167E+02
+ IT =   12   EPS =  1.0546558E+02
+ IT =   13   EPS =  9.8132935E+01
+ IT =   14   EPS =  9.1255371E+01
+ IT =   15   EPS =  8.4402954E+01
+ IT =   16   EPS =  7.8237305E+01
+ IT =   17   EPS =  7.2296875E+01
+ IT =   18   EPS =  6.7634399E+01
+ IT =   19   EPS =  6.3714233E+01
+ IT =   20   EPS =  6.0632202E+01
+
+ Jacobi3D GPU benchmark completed.
+ Size             =  900 x  900 x  900
+ Iterations       = 20
+ Time (seconds)   = 1.509526
+ Precision type   = single precision
+ GPU speedup      = 3.14 x
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1305680: <./jacobi3d --compare> in cluster <MSUCluster> Done
+
+Job <./jacobi3d --compare> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-sqi22-18> in cluster <MSUCluster> at Fri Mar 28 14:04:04 2025
+Job was executed on host(s) <polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-sqi22-18> in cluster <MSUCluster> at Fri Mar 28 14:04:04 2025
+</home_edu/edu-cmc-sqi22/edu-cmc-sqi22-18> was used as the home directory.
+</home_edu/edu-cmc-sqi22/edu-cmc-sqi22-18/cuda_spets_2025_msu-main/task_01> was used as the working directory.
+Started at Fri Mar 28 14:04:04 2025
+Terminated at Fri Mar 28 14:04:22 2025
+Results reported at Fri Mar 28 14:04:22 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./jacobi3d --compare
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1238.03 sec.
+    Max Memory :                                 11179 MB
+    Average Memory :                             8943.60 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                165
+    Run time :                                   19 sec.
+    Turnaround time :                            18 sec.
+
+The output (if any) follows:
+
+3D Jacobi Implementation
+Problem size: 900 x 900 x 900
+Data type: double
+
+GPU Device 0: "Tesla P100-SXM2-16GB"
+  Total global memory: 15.90 GB
+  Compute capability: 6.0
+  Max threads per block: 1024
+  Max thread dimensions: (1024, 1024, 64)
+  Max grid dimensions: (2147483647, 65535, 65535)
+
+Memory Info:
+  Total GPU memory: 15.90 GB
+  Available GPU memory: 15.53 GB
+
+Running CPU version...
+ IT =    1   EPS =  2.6980000E+03
+ IT =    2   EPS =  1.3495000E+03
+ IT =    3   EPS =  5.2458333E+02
+ IT =    4   EPS =  3.3714352E+02
+ IT =    5   EPS =  2.7466667E+02
+ IT =    6   EPS =  2.3302469E+02
+ IT =    7   EPS =  1.9677308E+02
+ IT =    8   EPS =  1.6295002E+02
+ IT =    9   EPS =  1.3928905E+02
+ IT =   10   EPS =  1.2331360E+02
+ IT =   11   EPS =  1.1221165E+02
+ IT =   12   EPS =  1.0546532E+02
+ IT =   13   EPS =  9.8133253E+01
+ IT =   14   EPS =  9.1255019E+01
+ IT =   15   EPS =  8.4403267E+01
+ IT =   16   EPS =  7.8237112E+01
+ IT =   17   EPS =  7.2296906E+01
+ IT =   18   EPS =  6.7634362E+01
+ IT =   19   EPS =  6.3714148E+01
+ IT =   20   EPS =  6.0632024E+01
+
+ Jacobi3D CPU benchmark completed.
+ Size             =  900 x  900 x  900
+ Iterations       = 20
+ Time (seconds)   = 9.355943
+ Precision type   = double precision
+
+Running GPU version...
+ IT =    1   EPS =  2.6980000E+03
+ IT =    2   EPS =  1.3495000E+03
+ IT =    3   EPS =  5.2458333E+02
+ IT =    4   EPS =  3.3714352E+02
+ IT =    5   EPS =  2.7466667E+02
+ IT =    6   EPS =  2.3302469E+02
+ IT =    7   EPS =  1.9677308E+02
+ IT =    8   EPS =  1.6295002E+02
+ IT =    9   EPS =  1.3928905E+02
+ IT =   10   EPS =  1.2331360E+02
+ IT =   11   EPS =  1.1221165E+02
+ IT =   12   EPS =  1.0546532E+02
+ IT =   13   EPS =  9.8133253E+01
+ IT =   14   EPS =  9.1255019E+01
+ IT =   15   EPS =  8.4403267E+01
+ IT =   16   EPS =  7.8237112E+01
+ IT =   17   EPS =  7.2296906E+01
+ IT =   18   EPS =  6.7634362E+01
+ IT =   19   EPS =  6.3714148E+01
+ IT =   20   EPS =  6.0632024E+01
+
+ Jacobi3D GPU benchmark completed.
+ Size             =  900 x  900 x  900
+ Iterations       = 20
+ Time (seconds)   = 1.818097
+ Precision type   = double precision
+ GPU speedup      = 5.15 x
