@@ -1,0 +1,194 @@
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1308582: <./myprogram> in cluster <MSUCluster> Done
+
+Job <./myprogram> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-sqi22-18> in cluster <MSUCluster> at Sat Apr 19 12:51:09 2025
+Job was executed on host(s) <polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-sqi22-18> in cluster <MSUCluster> at Sat Apr 19 12:51:09 2025
+</home_edu/edu-cmc-sqi22/edu-cmc-sqi22-18> was used as the home directory.
+</home_edu/edu-cmc-sqi22/edu-cmc-sqi22-18/cuda_spets_2025_msu-main/task_02> was used as the working directory.
+Started at Sat Apr 19 12:51:09 2025
+Terminated at Sat Apr 19 12:51:15 2025
+Results reported at Sat Apr 19 12:51:15 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./myprogram
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   19.54 sec.
+    Max Memory :                                 5628 MB
+    Average Memory :                             3752.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                166
+    Run time :                                   13 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) follows:
+
+Using 2 GPUs
+ IT =    1   EPS =  1.4977753E+01
+ IT =    2   EPS =  7.4833148E+00
+ IT =    3   EPS =  3.7388765E+00
+ IT =    4   EPS =  2.8020717E+00
+ IT =    5   EPS =  2.0999896E+00
+ IT =    6   EPS =  1.6321086E+00
+ IT =    7   EPS =  1.3979074E+00
+ IT =    8   EPS =  1.2004305E+00
+ IT =    9   EPS =  1.0395964E+00
+ IT =   10   EPS =  9.0896725E-01
+ ADI Benchmark Completed.
+ Size            =  900 x  900 x  900
+ Time in seconds =               3.13
+ Operation type  =   double precision
+ END OF ADI Benchmark
+
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1308594: <./myprogram> in cluster <MSUCluster> Done
+
+Job <./myprogram> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-sqi22-18> in cluster <MSUCluster> at Sat Apr 19 12:53:21 2025
+Job was executed on host(s) <polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-sqi22-18> in cluster <MSUCluster> at Sat Apr 19 12:53:21 2025
+</home_edu/edu-cmc-sqi22/edu-cmc-sqi22-18> was used as the home directory.
+</home_edu/edu-cmc-sqi22/edu-cmc-sqi22-18/cuda_spets_2025_msu-main/task_02> was used as the working directory.
+Started at Sat Apr 19 12:53:21 2025
+Terminated at Sat Apr 19 12:53:24 2025
+Results reported at Sat Apr 19 12:53:24 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./myprogram
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5.25 sec.
+    Max Memory :                                 490 MB
+    Average Memory :                             327.33 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                8
+    Run time :                                   4 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) follows:
+
+Using 2 GPUs
+ IT =    1   EPS =  1.4947781E+01
+ IT =    2   EPS =  7.4608355E+00
+ IT =    3   EPS =  3.7238903E+00
+ IT =    4   EPS =  2.7880222E+00
+ IT =    5   EPS =  2.0873450E+00
+ IT =    6   EPS =  1.6206348E+00
+ IT =    7   EPS =  1.3866678E+00
+ IT =    8   EPS =  1.1895640E+00
+ IT =    9   EPS =  1.0291324E+00
+ IT =   10   EPS =  8.9889566E-01
+ IT =   11   EPS =  8.1637226E-01
+ IT =   12   EPS =  7.4252830E-01
+ IT =   13   EPS =  6.7726701E-01
+ IT =   14   EPS =  6.2029793E-01
+ IT =   15   EPS =  5.6993903E-01
+ IT =   16   EPS =  5.3382665E-01
+ IT =   17   EPS =  5.0043413E-01
+ IT =   18   EPS =  4.6988352E-01
+ IT =   19   EPS =  4.4183724E-01
+ IT =   20   EPS =  4.1623246E-01
+ IT =   21   EPS =  3.9270463E-01
+ IT =   22   EPS =  3.7456607E-01
+ IT =   23   EPS =  3.5739535E-01
+ IT =   24   EPS =  3.4139745E-01
+ IT =   25   EPS =  3.2631076E-01
+ IT =   26   EPS =  3.1219307E-01
+ IT =   27   EPS =  2.9895857E-01
+ IT =   28   EPS =  2.8649634E-01
+ IT =   29   EPS =  2.7644125E-01
+ IT =   30   EPS =  2.6680737E-01
+ IT =   31   EPS =  2.5762866E-01
+ IT =   32   EPS =  2.4891235E-01
+ IT =   33   EPS =  2.4057875E-01
+ IT =   34   EPS =  2.3266383E-01
+ IT =   35   EPS =  2.2513318E-01
+ IT =   36   EPS =  2.1793451E-01
+ IT =   37   EPS =  2.1190850E-01
+ IT =   38   EPS =  2.0610887E-01
+ IT =   39   EPS =  2.0050622E-01
+ IT =   40   EPS =  1.9512701E-01
+ IT =   41   EPS =  1.8996008E-01
+ IT =   42   EPS =  1.8497301E-01
+ IT =   43   EPS =  1.8017356E-01
+ IT =   44   EPS =  1.7557433E-01
+ IT =   45   EPS =  1.7113552E-01
+ IT =   46   EPS =  1.6730266E-01
+ IT =   47   EPS =  1.6360964E-01
+ IT =   48   EPS =  1.6002274E-01
+ IT =   49   EPS =  1.5653571E-01
+ IT =   50   EPS =  1.5315761E-01
+ IT =   51   EPS =  1.4989580E-01
+ IT =   52   EPS =  1.4672614E-01
+ IT =   53   EPS =  1.4364580E-01
+ IT =   54   EPS =  1.4066991E-01
+ IT =   55   EPS =  1.3778775E-01
+ IT =   56   EPS =  1.3525398E-01
+ IT =   57   EPS =  1.3277761E-01
+ IT =   58   EPS =  1.3037604E-01
+ IT =   59   EPS =  1.2803498E-01
+ IT =   60   EPS =  1.2574813E-01
+ IT =   61   EPS =  1.2351426E-01
+ IT =   62   EPS =  1.2134735E-01
+ IT =   63   EPS =  1.1923575E-01
+ IT =   64   EPS =  1.1717340E-01
+ IT =   65   EPS =  1.1515900E-01
+ IT =   66   EPS =  1.1320114E-01
+ IT =   67   EPS =  1.1146178E-01
+ IT =   68   EPS =  1.0975581E-01
+ IT =   69   EPS =  1.0808268E-01
+ IT =   70   EPS =  1.0644525E-01
+ IT =   71   EPS =  1.0485080E-01
+ IT =   72   EPS =  1.0328749E-01
+ IT =   73   EPS =  1.0175470E-01
+ IT =   74   EPS =  1.0025182E-01
+ IT =   75   EPS =  9.8787344E-02
+ IT =   76   EPS =  9.7355039E-02
+ IT =   77   EPS =  9.5950760E-02
+ IT =   78   EPS =  9.4573880E-02
+ IT =   79   EPS =  9.3331431E-02
+ IT =   80   EPS =  9.2119679E-02
+ IT =   81   EPS =  9.0927908E-02
+ IT =   82   EPS =  8.9755818E-02
+ IT =   83   EPS =  8.8603103E-02
+ IT =   84   EPS =  8.7471356E-02
+ IT =   85   EPS =  8.6365979E-02
+ IT =   86   EPS =  8.5279028E-02
+ IT =   87   EPS =  8.4210177E-02
+ IT =   88   EPS =  8.3159099E-02
+ IT =   89   EPS =  8.2126991E-02
+ IT =   90   EPS =  8.1118785E-02
+ IT =   91   EPS =  8.0127367E-02
+ IT =   92   EPS =  7.9224046E-02
+ IT =   93   EPS =  7.8333487E-02
+ IT =   94   EPS =  7.7455543E-02
+ IT =   95   EPS =  7.6597255E-02
+ IT =   96   EPS =  7.5751294E-02
+ IT =   97   EPS =  7.4917432E-02
+ IT =   98   EPS =  7.4095498E-02
+ IT =   99   EPS =  7.3285316E-02
+ IT =  100   EPS =  7.2490737E-02
+ ADI Benchmark Completed.
+ Size            =  384 x  384 x  384
+ Time in seconds =               1.78
+ Operation type  =   double precision
+ Verification    =         SUCCESSFUL
+ END OF ADI Benchmark
