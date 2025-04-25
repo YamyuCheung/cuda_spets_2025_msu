@@ -1,0 +1,57 @@
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1309348: <./adi_program> in cluster <MSUCluster> Done
+
+Job <./adi_program> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-sqi22-18> in cluster <MSUCluster> at Fri Apr 25 17:03:17 2025
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-sqi22-18> in cluster <MSUCluster> at Fri Apr 25 17:03:17 2025
+</home_edu/edu-cmc-sqi22/edu-cmc-sqi22-18> was used as the home directory.
+</home_edu/edu-cmc-sqi22/edu-cmc-sqi22-18/cuda_spets_2025_msu-main/task_02> was used as the working directory.
+Started at Fri Apr 25 17:03:17 2025
+Terminated at Fri Apr 25 17:03:24 2025
+Results reported at Fri Apr 25 17:03:24 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./adi_program
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.43 sec.
+    Max Memory :                                 5606 MB
+    Average Memory :                             3738.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                165
+    Run time :                                   13 sec.
+    Turnaround time :                            7 sec.
+
+The output (if any) follows:
+
+Starting ADI Benchmark with CUDA Implementation (Optimized)...
+Current Implementation Mode: 2
+Number of OpenMP threads for initialization: 160
+Initializing data...
+Copying data to device (done only once)...
+Starting computation...
+ IT =    1   EPS =  1.4977753E+01
+ IT =    2   EPS =  7.4833148E+00
+ IT =    3   EPS =  3.7388765E+00
+ IT =    4   EPS =  2.8020717E+00
+ IT =    5   EPS =  2.0999896E+00
+ IT =    6   EPS =  1.6321086E+00
+ IT =    7   EPS =  1.3979074E+00
+ IT =    8   EPS =  1.2004305E+00
+ IT =    9   EPS =  1.0395964E+00
+ IT =   10   EPS =  9.0896725E-01
+ ADI Benchmark Completed.
+ Size            =  900 x  900 x  900
+ Iterations      =                 10
+ Time in seconds =               2.89
+ Operation type  =   double precision
+ END OF ADI Benchmark
